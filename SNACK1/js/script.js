@@ -14,10 +14,10 @@ for (let i=0; i < 6; i++) {
     const userNumbers = parseInt(prompt("inserisci un numero"));
     console.log(userNumbers);
 
-    let numeroDispari = false;
+    
 
-    if (userNumbers % 2 === 1){
-        numeroDispari = true;
+    if (userNumbers % 2 == 1){
+        array.push(userNumbers);
     }
 }
 
