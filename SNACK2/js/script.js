@@ -8,6 +8,6 @@ for (let i=0; i<5; i++) {
     if (userNumber % 2 == 0) {
         console.log(userNumber);
     } else {
-        console.log(userNumber ++)
+        console.log(userNumber +1);
     }
 }
