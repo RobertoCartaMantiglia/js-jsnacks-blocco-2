@@ -8,10 +8,10 @@ let somma = 0;
 let media = 0;
 
 for (let i = 0; i<10; i++){
-    somma += numbers[i];
-
-    media = somma % 10; 
+    somma += numbers[i]; 
 }
+
+media = somma / 10;
 
 console.log(somma);
 console.log("media " + media);
