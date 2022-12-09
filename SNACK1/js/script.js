@@ -5,20 +5,14 @@
 
 
 const array = [];
+let userNumber;
 
 
-
-
-for (let i=0; i < 6; i++) {
-
-    const userNumbers = parseInt(prompt("inserisci un numero"));
-    console.log(userNumbers);
-
-    
-
-    if (userNumbers % 2 == 1){
-        array.push(userNumbers);
+for (let i=0; i<6; i++){
+    userNumber = parseInt(prompt("inserisci un numero")) ,10;
+    console.log(userNumber);
+    if(userNumber % 2 !== 0){
+        array.push(userNumber);
     }
 }
-
 console.log(array);
