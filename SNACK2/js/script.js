@@ -2,12 +2,10 @@
 
 
 
-for (let i=0; i<5; i++) {
-    const userNumber = parseInt(prompt("inserisci un numero"));
+const userNumber = parseInt(prompt("inserisci unahjdhdgero"));
 
-    if (userNumber % 2 == 0) {
-        console.log(userNumber);
-    } else {
-        console.log(userNumber +1);
-    }
+if(userNumber %2 !== 0){
+    console.log(userNumber + 1);
+}else{
+    console.log(userNumber);
 }
